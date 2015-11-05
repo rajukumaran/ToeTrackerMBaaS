@@ -29,6 +29,7 @@ namespace ToeTrackerTrainerMobService.Controllers
 
 
             }
+
             strJson = strJson.Substring(0, strJson.Length - 1);
             strJson += "}";
             return strJson;
