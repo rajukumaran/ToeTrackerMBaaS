@@ -189,6 +189,7 @@
     <Compile Include="Controllers\AddExerciseController.cs" />
     <Compile Include="Controllers\CustomLoginController.cs" />
     <Compile Include="Controllers\CustomRegistrationController.cs" />
+    <Compile Include="Controllers\EnterExerciseActivityController.cs" />
     <Compile Include="Controllers\ExcerciseInputController.cs" />
     <Compile Include="Controllers\GetMusclesController.cs" />
     <Compile Include="Controllers\TrainerAssociationController.cs" />

@@ -53,7 +53,7 @@ namespace ToeTrackerTrainerMobService.Controllers
                 };
                 context.Accounts.Add(newAccount);
                 context.SaveChanges();
-                return this.Request.CreateResponse(HttpStatusCode.Created);
+                return this.Request.CreateResponse(HttpStatusCode.Created,"{\"UserCreation\":\"Success\"}");
             }
         }
     }
